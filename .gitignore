@@ -3,6 +3,8 @@
 Thumbs.db
 *.log
 *.env
+tmp/
+dist/
 
 
 .gradle/
@@ -13,19 +15,20 @@ captures/
 
 local.properties
 
-
 .idea/
 *.iml
 *.hprof
-
 
 *.apk
 *.ap_
 *.aab
 
-
 *.jks
 *.keystore
+
+
+*.tflite
+!mobile-app/assets/grocery_model.tflite
 
 
 node_modules/
@@ -52,8 +55,9 @@ env/
 *.pb
 *.ckpt
 
-*.tflite
-!mobile-app/assets/grocery_model.tflite
+
+.saved_model/
+*.tfrecord
 
 
 dataset/
@@ -64,23 +68,7 @@ data/
 *.npz
 
 
-.saved_model/
-*.tfrecord
-
-
-__pycache__/
-*.pt
-*.pth
-
-
-.ipynb_checkpoints/
-
 .vscode/
 .idea/
 *.sublime-project
 *.sublime-workspace
-
-
-build/
-dist/
-tmp/
