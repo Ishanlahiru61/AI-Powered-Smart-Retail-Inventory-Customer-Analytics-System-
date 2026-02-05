@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- ✅ Compose + Material3 compatible theme -->
+    <style name="Theme.Grocery_trackerimage_classification"
+        parent="Theme.Material3.DayNight.NoActionBar">
+
+        <!-- Optional custom colors -->
+        <!-- <item name="colorPrimary">@color/purple_500</item> -->
+        <!-- <item name="colorSecondary">@color/teal_200</item> -->
+
+    </style>
+
+</resources>

@@ -1,0 +1,19 @@
+<!-- res/values/styles.xml -->
+<resources>
+    <style name="CustomDialog" parent="Theme.Material3.DayNight.Dialog">
+        <!-- Transparent background -->
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <!-- No title bar -->
+        <item name="android:windowNoTitle">true</item>
+        <!-- Floating style -->
+        <item name="android:windowIsFloating">true</item>
+        <!-- Translucent background -->
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+
+    <!-- Button rounded style (optional, can use background drawable) -->
+    <style name="RoundedButton">
+        <item name="android:background">@drawable/btn_rounded</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+</resources>

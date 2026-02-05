@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#66000000"
+    android:gravity="center">
+
+<LinearLayout
+android:layout_width="300dp"
+android:layout_height="wrap_content"
+android:orientation="vertical"
+android:padding="24dp"
+android:background="@drawable/dialog_background"
+android:gravity="center">
+
+<TextView
+    android:id="@+id/tvProductName"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Product Name"
+    android:textSize="20sp"
+    android:textStyle="bold"
+    android:textColor="@color/primaryText"
+    android:layout_gravity="center"
+    android:paddingBottom="16dp"/>
+
+<EditText
+    android:id="@+id/etQuantity"
+    android:layout_width="match_parent"
+    android:layout_height="48dp"
+    android:hint="Enter Quantity"
+    android:inputType="number"
+    android:background="@drawable/et_background"
+    android:paddingStart="12dp"
+    android:paddingEnd="12dp"
+    android:textColor="@color/primaryText"
+    android:textColorHint="@color/secondaryText"
+    android:layout_marginBottom="24dp"/>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:gravity="center"
+    android:weightSum="2">
+
+    <Button
+        android:id="@+id/btnCancel"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="48dp"
+        android:text="Cancel"
+        android:backgroundTint="@color/cancelButton"
+        android:textColor="@android:color/white"
+        android:layout_marginEnd="8dp"
+        android:background="@drawable/btn_rounded"/>
+
+    <Button
+        android:id="@+id/btnConfirm"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="48dp"
+        android:text="Confirm"
+        android:backgroundTint="@color/accentColor"
+        android:textColor="@android:color/white"
+        android:layout_marginStart="8dp"
+        android:background="@drawable/btn_rounded"/>
+</LinearLayout>
+</LinearLayout>
+    </FrameLayout>
