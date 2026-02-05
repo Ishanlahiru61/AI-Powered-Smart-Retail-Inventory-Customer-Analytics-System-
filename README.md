@@ -19,7 +19,7 @@ Since specialized datasets for Sri Lankan products are rare, a custom dataset wa
 * **Labels:** `Jelly`, `Nestomalt`, `Pelwatte Milk Powder`, `Araliya Rice`, `Sathosa Rice`.
 * **Augmentation:** Applied rotation, zoom, and brightness shifts to improve model robustness.
 
-> **Dataset Link:** [Insert your Kaggle or Google Drive link here]
+> **Dataset Link:**(https://mysliit-my.sharepoint.com/:f:/g/personal/it23208926_my_sliit_lk/IgCW2GI0xEZWSr43R1cj9wAyAXeXX-5WoypKtMlzQ53D4OU?e=yQhkDB)
 >
 
 
