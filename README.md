@@ -46,7 +46,7 @@ Built with **Kotlin** and **Jetpack Compose**, the app serves as a portable POS 
 
 * **Real-time Analysis:** Uses **CameraX** and **TFLite** for sub-100ms inference.
 * **Batch Billing:** Users can scan multiple items, confirm them, and upload the entire transaction to MongoDB.
-* **Edge Computing:** No internet is required for the actual product identification.
+
 
 ![Mobile App Screenshot 1](assets/img1.png)
 ![Mobile App Screenshot 2](assets/img2.png)
